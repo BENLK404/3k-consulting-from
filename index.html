@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="3K Consulting - Obtenez votre certificat ECTN pour le Togo rapidement et en conformité. Service professionnel, transparent et garanti.">
+    <title>3K Consulting — Certificat ECTN Togo</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Favicon (optionnel) -->
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+
+    <!-- Theme color pour mobile -->
+    <meta name="theme-color" content="#2563eb">
+
+    <!-- Apple touch icon (optionnel) -->
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+</head>
+<body>
+<div class="bg-pattern"></div>
+
+<header>
+    <nav>
+        <div class="logo">3K Consulting</div>
+        <ul class="nav-links">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#services">Services ECTN</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="cta-button" onclick="document.getElementById('devisForm').scrollIntoView({behavior: 'smooth'})">
+            Demander un devis
+        </button>
+    </nav>
+</header>
+
+<section class="hero" id="accueil">
+    <div class="hero-content">
+        <h1>Certificat <span class="highlight">ECTN</span> pour le Togo</h1>
+        <p>Obtenez votre Electronic Cargo Tracking Note rapidement et en conformité avec les exigences douanières togolaises. Service professionnel, transparent et garanti.</p>
+        <div class="hero-buttons">
+            <button class="btn-primary" onclick="document.getElementById('devisForm').scrollIntoView({behavior: 'smooth'})">
+                Commencer
+            </button>
+        </div>
+    </div>
+</section>
+
+<section class="stats-section">
+    <div class="stats-grid">
+        <div class="stat-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+            <h4>500+</h4>
+            <p>Certificats émis</p>
+        </div>
+        <div class="stat-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/>
+            </svg>
+            <h4>24–48h</h4>
+            <p>Réponse devis</p>
+        </div>
+        <div class="stat-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+            <h4>99,2%</h4>
+            <p>Acceptation 1er essai</p>
+        </div>
+        <div class="stat-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 7l-8-4-8 4m16 0v10l-8 4-8-4V7m0 0l8 4 8-4z"/>
+            </svg>
+            <h4>24/7</h4>
+            <p>Assistance francophone</p>
+        </div>
+    </div>
+</section>
+
+<section class="forms-section" id="services">
+    <h2 class="section-title">Soumettre une demande</h2>
+
+    <div class="forms-container">
+        <!-- FORMULAIRE 1: DEMANDE DE DEVIS -->
+        <div class="form-card" id="devisForm">
+            <h3>
+                <svg class="icon-sm" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M13 3h8v8l-4 4-4-4V7a2 2 0 012-2h3V3zM3 13v8h8l4-4 4 4v-4h-2a2 2 0 00-2-2H7a2 2 0 01-2-2V7a2 2 0 00-2-2H3v8z"/>
+                </svg>
+                Demande de devis (gratuit)
+            </h3>
+            <div class="form-note">
+                <strong>Note :</strong> Réponse sous 24–48h ouvrées. Aucun engagement.
+            </div>
+
+            <form id="form1">
+                <div class="form-group">
+                    <label>Nom / Raison sociale <span class="required">*</span></label>
+                    <input type="text" required placeholder="Ex: SARL TransAfrique" autocomplete="organization">
+                </div>
+                <div class="form-group">
+                    <label>Date de départ prévue <span class="required">*</span></label>
+                    <input type="date" required>
+                </div>
+                <div class="form-group">
+                    <label>Pays d'expédition <span class="required">*</span></label>
+                    <div class="custom-select" id="country1">
+                        <input type="text" class="select-input" placeholder="Sélectionner un pays" readonly required autocomplete="off">
+                        <div class="select-arrow">
+                            <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+                        </div>
+                        <div class="select-dropdown">
+                            <div class="select-search">
+                                <input type="text" placeholder="Rechercher...">
+                            </div>
+                            <div class="select-options"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>E-mail <span class="required">*</span></label>
+                    <input type="email" required placeholder="contact@entreprise.com" autocomplete="email">
+                </div>
+
+                <div class="form-group">
+                    <label>Téléphone</label>
+                    <div class="phone-input-wrapper">
+                        <div class="phone-prefix custom-select" id="phone1">
+                            <input type="text" class="select-input" placeholder="+228" readonly autocomplete="off">
+                            <div class="select-arrow">
+                                <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+                            </div>
+                            <div class="select-dropdown">
+                                <div class="select-search">
+                                    <input type="text" placeholder="Rechercher...">
+                                </div>
+                                <div class="select-options"></div>
+                            </div>
+                        </div>
+                        <input type="tel" class="phone-number" placeholder="XX XX XX XX" autocomplete="tel">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Commentaires</label>
+                    <textarea placeholder="Numéro de BL, type de marchandises, navire prévu..."></textarea>
+                </div>
+
+                <h4 style="margin: 2rem 0 1rem; color: var(--dark); font-weight: 600;">
+                    Télécharger vos documents
+                </h4>
+
+                <div class="file-upload">
+                    <label>Connaissement <span class="required">*</span></label>
+                    <div class="file-input-wrapper">
+                        <input type="file" required accept=".pdf" data-preview="preview12">
+                        <div class="file-placeholder">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-1"/>
+                                <path d="M9 15l3 -3l3 3m-3 -3v9"/>
+                            </svg>
+                            <div class="file-placeholder-text">Cliquez ou déposez un fichier</div>
+                            <div class="file-placeholder-hint">PDF uniquement</div>
+                        </div>
+                    </div>
+                    <div class="file-preview" id="preview12">
+                        <div class="pdf-thumbnail">PDF</div>
+                        <div class="file-info">
+                            <div class="file-name"></div>
+                            <div class="file-size"></div>
+                        </div>
+                        <button type="button" class="file-remove">Supprimer</button>
+                    </div>
+                </div>
+
+                <div class="file-upload">
+                    <label>Facture commerciale <span class="required">*</span></label>
+                    <div class="file-input-wrapper">
+                        <input type="file" required accept=".pdf" data-preview="preview11">
+                        <div class="file-placeholder">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-1"/>
+                                <path d="M9 15l3 -3l3 3m-3 -3v9"/>
+                            </svg>
+                            <div class="file-placeholder-text">Cliquez ou déposez un fichier</div>
+                            <div class="file-placeholder-hint">PDF uniquement</div>
+                        </div>
+                    </div>
+                    <div class="file-preview" id="preview11">
+                        <div class="pdf-thumbnail">PDF</div>
+                        <div class="file-info">
+                            <div class="file-name"></div>
+                            <div class="file-size"></div>
+                        </div>
+                        <button type="button" class="file-remove">Supprimer</button>
+                    </div>
+                </div>
+
+                <div class="file-upload">
+                    <label>Facture d'exportation</label>
+                    <div class="file-input-wrapper">
+                        <input type="file" accept=".pdf" data-preview="preview14">
+                        <div class="file-placeholder">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-1"/>
+                                <path d="M9 15l3 -3l3 3m-3 -3v9"/>
+                            </svg>
+                            <div class="file-placeholder-text">Cliquez ou déposez un fichier</div>
+                            <div class="file-placeholder-hint">PDF uniquement</div>
+                        </div>
+                    </div>
+                    <div class="file-preview" id="preview14">
+                        <div class="pdf-thumbnail">PDF</div>
+                        <div class="file-info">
+                            <div class="file-name"></div>
+                            <div class="file-size"></div>
+                        </div>
+                        <button type="button" class="file-remove">Supprimer</button>
+                    </div>
+                </div>
+
+                <p style="font-size: 0.85rem; color: var(--gray); margin-top: 1rem;">
+                    <span class="required">*</span> Champs obligatoires
+                </p>
+                <div class="g-recaptcha"></div>
+                <button type="submit" class="submit-btn">
+                    Soumettre ma demande de devis
+                </button>
+            </form>
+        </div>
+
+        <!-- FORMULAIRE 2: SOUMISSION BSC -->
+        <div class="form-card">
+            <h3>
+                <svg class="icon-sm" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                </svg>
+                Soumission BSC
+            </h3>
+
+            <div class="form-note" style="background-color: #fffbeb; border-left-color: #ca8a04; color: #92400e;">
+                <strong>Remarque importante :</strong> Les e-mails de confirmation sont parfois filtrés en <em>spam</em>. Si vous n'en recevez pas sous 1h, vérifiez votre dossier indésirable.
+            </div>
+
+            <form id="form2">
+                <div class="form-group">
+                    <label>Nom / Raison Sociale <span class="required">*</span></label>
+                    <input type="text" required placeholder="Ex: SARL ExportAfrique" autocomplete="organization">
+                </div>
+
+                <div class="form-group">
+                    <label>Date de départ <span class="required">*</span></label>
+                    <input type="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Pays du chargeur <span class="required">*</span></label>
+                    <div class="custom-select" id="country3">
+                        <input type="text" class="select-input" placeholder="Sélectionner un pays" readonly required autocomplete="off">
+                        <div class="select-arrow">
+                            <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+                        </div>
+                        <div class="select-dropdown">
+                            <div class="select-search">
+                                <input type="text" placeholder="Rechercher...">
+                            </div>
+                            <div class="select-options"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Pays du destinataire <span class="required">*</span></label>
+                    <div class="custom-select" id="country4">
+                        <input type="text" class="select-input" placeholder="Sélectionner un pays" readonly required autocomplete="off">
+                        <div class="select-arrow">
+                            <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+                        </div>
+                        <div class="select-dropdown">
+                            <div class="select-search">
+                                <input type="text" placeholder="Rechercher...">
+                            </div>
+                            <div class="select-options"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>E-mail <span class="required">*</span></label>
+                    <input type="email" required placeholder="contact@entreprise.com" autocomplete="email">
+                </div>
+
+                <div class="form-group">
+                    <label>Téléphone</label>
+                    <div class="phone-input-wrapper">
+                        <div class="phone-prefix custom-select" id="phone2">
+                            <input type="text" class="select-input" placeholder="+228" readonly autocomplete="off">
+                            <div class="select-arrow">
+                                <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+                            </div>
+                            <div class="select-dropdown">
+                                <div class="select-search">
+                                    <input type="text" placeholder="Rechercher...">
+                                </div>
+                                <div class="select-options"></div>
+                            </div>
+                        </div>
+                        <input type="tel" class="phone-number" placeholder="XX XX XX XX" autocomplete="tel">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Commentaires</label>
+                    <textarea placeholder="Numéro de BL, type de marchandises, navire prévu..."></textarea>
+                </div>
+
+                <h4 style="margin: 2rem 0 1rem; color: var(--dark); font-weight: 600;">
+                    Télécharger vos documents
+                </h4>
+
+                <div class="file-upload">
+                    <label>Connaissement <span class="required">*</span></label>
+                    <div class="file-input-wrapper">
+                        <input type="file" required accept=".pdf" data-preview="preview3">
+                        <div class="file-placeholder">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-1"/>
+                                <path d="M9 15l3 -3l3 3m-3 -3v9"/>
+                            </svg>
+                            <div class="file-placeholder-text">Cliquez ou déposez un fichier</div>
+                            <div class="file-placeholder-hint">PDF uniquement</div>
+                        </div>
+                    </div>
+                    <div class="file-preview" id="preview3">
+                        <div class="pdf-thumbnail">PDF</div>
+                        <div class="file-info">
+                            <div class="file-name"></div>
+                            <div class="file-size"></div>
+                        </div>
+                        <button type="button" class="file-remove">Supprimer</button>
+                    </div>
+                </div>
+
+                <div class="file-upload">
+                    <label>Facture commerciale <span class="required">*</span></label>
+                    <div class="file-input-wrapper">
+                        <input type="file" required accept=".pdf" data-preview="preview4">
+                        <div class="file-placeholder">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-1"/>
+                                <path d="M9 15l3 -3l3 3m-3 -3v9"/>
+                            </svg>
+                            <div class="file-placeholder-text">Cliquez ou déposez un fichier</div>
+                            <div class="file-placeholder-hint">PDF uniquement</div>
+                        </div>
+                    </div>
+                    <div class="file-preview" id="preview4">
+                        <div class="pdf-thumbnail">PDF</div>
+                        <div class="file-info">
+                            <div class="file-name"></div>
+                            <div class="file-size"></div>
+                        </div>
+                        <button type="button" class="file-remove">Supprimer</button>
+                    </div>
+                </div>
+
+                <div class="file-upload">
+                    <label>Facture d'exportation</label>
+                    <div class="file-input-wrapper">
+                        <input type="file" accept=".pdf" data-preview="preview5">
+                        <div class="file-placeholder">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-1"/>
+                                <path d="M9 15l3 -3l3 3m-3 -3v9"/>
+                            </svg>
+                            <div class="file-placeholder-text">Cliquez ou déposez un fichier</div>
+                            <div class="file-placeholder-hint">PDF uniquement</div>
+                        </div>
+                    </div>
+                    <div class="file-preview" id="preview5">
+                        <div class="pdf-thumbnail">PDF</div>
+                        <div class="file-info">
+                            <div class="file-name"></div>
+                            <div class="file-size"></div>
+                        </div>
+                        <button type="button" class="file-remove">Supprimer</button>
+                    </div>
+                </div>
+
+                <p style="font-size: 0.85rem; color: var(--gray); margin-top: 1rem;">
+                    <span class="required">*</span> Champs obligatoires
+                </p>
+                <div class="g-recaptcha"></div>
+                <button type="submit" class="submit-btn">
+                    Soumettre ma demande BSC
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Scripts - mobile-menu.js doit se charger en PREMIER -->
+<script src="./js/mobile-menu.js"></script>
+<script src="./js/app.js"></script>
+<script src="./js/script.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onRecaptchaLoad&render=explicit" async defer></script>
+
+</body>
+</html>
